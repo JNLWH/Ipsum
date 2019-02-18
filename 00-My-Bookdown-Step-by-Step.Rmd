@@ -76,3 +76,5 @@ Go into ´docs > index.html` to preview book in Web Browser. Up until now, the b
 
 Thanks to the `docs` folder under `master` branch, once repo is pushed to master the Github Page is live immediately at [https://jnlwh.github.io/Ipsum/](https://jnlwh.github.io/Ipsum/).
 
+After I made some changes, I need to re-render the books and then push to Github for the changes to show on the Github Page.
+
