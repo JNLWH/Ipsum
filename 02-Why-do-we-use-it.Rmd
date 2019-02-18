@@ -1,7 +1,0 @@
-# Why do we use it
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-## Lorem more
-
-Donec ac aliquet tortor, tempor dictum arcu. Maecenas efficitur libero sit amet nisl fringilla, at finibus nisl facilisis. Etiam eu vehicula diam. Nulla ultricies pellentesque lorem. Vivamus eget lectus ut dui interdum rutrum. Nulla elementum non velit eget sodales. Vivamus fermentum tellus a pulvinar placerat. Cras leo ipsum, pulvinar et enim sed, tempor consequat metus. Cras non neque vitae urna iaculis condimentum vel quis metus. Donec ipsum risus, elementum vehicula ornare in, consequat et augue. Sed arcu justo, lobortis eget dolor eu, molestie ullamcorper eros. Fusce tincidunt urna vel mi faucibus cursus. Integer vulputate, sem vitae tempus porta, metus lectus tincidunt odio, non posuere arcu augue id ipsum. Donec facilisis euismod lectus malesuada luctus.
