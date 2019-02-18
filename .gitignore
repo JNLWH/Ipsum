@@ -2,8 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
-*.gitignore
-*.gitattribute
-*.DS_Store
 *.Rporj
-*.R
