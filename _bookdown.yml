@@ -6,7 +6,8 @@ rmd_files: ["index.Rmd",
 "01-What-is-Lorem-Ipsum.Rmd", 
 "02-Why-do-we-use-it.Rmd",
 "03-Where-does-it-come-from.Rmd",
-"04-Where-can-I-get-some.Rmd"
+"04-Where-can-I-get-some.Rmd",
+"00-My-Bookdown-Step-by-Step"
 ]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes

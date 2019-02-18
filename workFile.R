@@ -10,3 +10,4 @@ file.remove("01-Introduction.Rmd",
             "03-Work-In-Progress.Rmd")
 
 bookdown::render_book("index.Rmd")
+
