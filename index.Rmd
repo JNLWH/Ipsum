@@ -14,17 +14,17 @@ description: "Bookdown by Yuhui & Bookdown boilerplate by Sean Kross."
 
 # Preface {-}
 
-Bookdown package is a simple way to publish a [GitBook](https://www.gitbook.com) look-and-feel online book and turn it into a static wiki site in no time. 
+Bookdown R package is a simple way to publish a [GitBook](https://www.gitbook.com) look-and-feel online book and turn it into a static wiki site in no time. 
 
 This is a simple minimum book to test how this works. 
 
 I used a number of sources during this test:
 
-* [Bookdown by Yihui, RStudio](https://bookdown.org/yihui/bookdown/)
-* [Tidyverse Style Guide by Hadley Wickham](https://style.tidyverse.org)
-* [Bookdown Starter "Boilerplate" by Sean Kross](http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html)
+* [Bookdown](https://bookdown.org/yihui/bookdown/) by Yihui, RStudio
+* Tidyverse [Style Guide](https://style.tidyverse.org) by Hadley Wickham
+* [Bookdown Starter "Boilerplate"](http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html) by Sean Kross
 * [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
 * [Markdown guide](https://www.markdownguide.org/cheat-sheet/)
-* [Lorem Ipsum generator](https://www.lipsum.com)
+* [Lorem Ipsum](https://www.lipsum.com) generator
 
-Sean's Starter Master has proven to be invaluable to kick start a simple Book.
+Sean's Bookdown starter boilerplate has proven to be invaluable to kick start this simple book.
