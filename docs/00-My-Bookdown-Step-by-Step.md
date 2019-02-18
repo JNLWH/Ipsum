@@ -45,13 +45,13 @@ I created page files at once with
 
 
 ```r
-library("bookdown")
+# library("bookdown")
 
-file.create("00-My-Bookdown-Step-by-Step.Rmd",
-            "01-What-is-Lorem-Ipsum.Rmd",
-            "02-Why-do-we-use-it.Rmd",
-            "03-Where-does-it-come-from.Rmd",
-            "04-Where-can-I-get-some.Rmd")
+# file.create("1-file-name.Rmd",
+#            "2-file-name.Rmd",
+#            "3-file-name.Rmd",
+#            "4-file-name.Rmd",
+#            "5-file-name.Rmd")
 ```
 
 Each file is a "page" on the online book website. 
@@ -66,7 +66,7 @@ Render book with r code
 
 
 ```r
-bookdown::render_book("index.Rmd")
+# bookdown::render_book("index.Rmd")
 ```
 
 Go into ´docs > index.html` to preview book in Web Browser. Up until now, the book HTML is on the local computer.
