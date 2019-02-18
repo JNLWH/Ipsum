@@ -1,7 +1,7 @@
 --- 
 title: "Ipsum - a bookdown test"
 author: "Lorem Ipsum"
-date: "`r Sys.Date()`"
+date: "2019-02-18"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
