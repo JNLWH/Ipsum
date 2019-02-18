@@ -1,6 +1,6 @@
 --- 
-title: "Ipsum - a bookdown test"
-author: "Lorem Ipsum"
+title: "Ipsum"
+author: "by Jiani"
 date: "2019-02-18"
 site: bookdown::bookdown_site
 documentclass: book
@@ -9,9 +9,22 @@ biblio-style: apalike
 link-citations: yes
 github-repo: JNLWH/Ipsum
 url: 'https://jnlwh.github.io/Ipsum/'
-description: "Testing Bookdown Start Boilerplate by Sean Kross."
+description: "Bookdown by Yuhui & Bookdown boilerplate by Sean Kross."
 ---
 
 # Preface {-}
 
-Bookdown is a very interesting and streamlined way to publish a book or make a static wiki site. Here I try out Sean Kross Bookdown Boilerplate.
+Bookdown package is a simple way to publish a [GitBook](https://www.gitbook.com) look-and-feel online book and turn it into a static wiki site in no time. 
+
+This is a simple minimum book to test how this works. 
+
+I used a number of sources during this test:
+
+* [Bookdown by Yihui, RStudio](https://bookdown.org/yihui/bookdown/)
+* [Tidyverse Style Guide by Hadley Wickham](https://style.tidyverse.org)
+* [Bookdown Starter "Boilerplate" by Sean Kross](http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html)
+* [R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
+* [Markdown guide](https://www.markdownguide.org/cheat-sheet/)
+* [Lorem Ipsum generator](https://www.lipsum.com)
+
+Sean's Starter Master has proven to be invaluable to kick start a simple Book.

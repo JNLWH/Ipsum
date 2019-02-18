@@ -5,11 +5,11 @@
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Ipsum</title>
+  <title>5 My Bookdown step-by-step | Ipsum</title>
   <meta name="description" content="Bookdown by Yuhui &amp; Bookdown boilerplate by Sean Kross.">
   <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
-  <meta property="og:title" content="Ipsum" />
+  <meta property="og:title" content="5 My Bookdown step-by-step | Ipsum" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://jnlwh.github.io/Ipsum/" />
   
@@ -17,7 +17,7 @@
   <meta name="github-repo" content="JNLWH/Ipsum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Ipsum" />
+  <meta name="twitter:title" content="5 My Bookdown step-by-step | Ipsum" />
   
   <meta name="twitter:description" content="Bookdown by Yuhui &amp; Bookdown boilerplate by Sean Kross." />
   
@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
+<link rel="prev" href="where-can-i-get-some.html">
 
-<link rel="next" href="what-is-lorem-ipsum.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -173,34 +173,77 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Ipsum</h1>
-<p class="author"><em>by Jiani</em></p>
-<p class="date"><em>2019-02-18</em></p>
+<div id="my-bookdown-step-by-step" class="section level1">
+<h1><span class="header-section-number">5</span> My Bookdown step-by-step</h1>
+<div id="a-new-r-project-ipsum" class="section level2">
+<h2><span class="header-section-number">5.1</span> A new R project “Ipsum”</h2>
+<p>Create a new project in R Studio. Create a new <code>doc/</code> folder directly under <code>Master</code> branch. Push repo to Github.</p>
+<p>This repo is hosted on a free account. So the repo is set to public for me to enable <a href="https://pages.github.com">Github Pages</a> settings.</p>
+<p>One needs to go into repo settings to enable github page.</p>
 </div>
-<div id="preface" class="section level1 unnumbered">
-<h1>Preface</h1>
-<p>Bookdown package is a simple way to publish a <a href="https://www.gitbook.com">GitBook</a> look-and-feel online book and turn it into a static wiki site in no time.</p>
-<p>This is a simple minimum book to test how this works.</p>
-<p>I used a number of sources during this test:</p>
-<ul>
-<li><a href="https://bookdown.org/yihui/bookdown/">Bookdown by Yihui, RStudio</a></li>
-<li><a href="https://style.tidyverse.org">Tidyverse Style Guide by Hadley Wickham</a></li>
-<li><a href="http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html">Bookdown Starter “Boilerplate” by Sean Kross</a></li>
-<li><a href="https://rmarkdown.rstudio.com/lesson-1.html">R Markdown</a></li>
-<li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown guide</a></li>
-<li><a href="https://www.lipsum.com">Lorem Ipsum generator</a></li>
-</ul>
-<p>Sean’s Starter Master has proven to be invaluable to kick start a simple Book.</p>
+<div id="bookdown-boilerplate" class="section level2">
+<h2><span class="header-section-number">5.2</span> Bookdown boilerplate</h2>
+<p>Copy or clone Sean’s Bookdown boilerplate (<a href="https://github.com/seankross/bookdown-start">Bookdown-Start Repo</a>). Start with these files and make modifications.</p>
+<div id="output.yml" class="section level3">
+<h3><span class="header-section-number">5.2.1</span> _output.yml</h3>
+<p>Update line 8 “Ipsum” as this will be the book name.</p>
+</div>
+<div id="bookdown.yml" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> _bookdown.yml</h3>
+<p>Update:</p>
+<p><code>book_filename</code>
+<code>repo</code> (optional)
+<code>output_dir: docs</code>
+<code>rmd_files</code> specifies the order of chapters. It helps to name each file with a number prefix.
+<code>new_session: yes</code></p>
+</div>
+<div id="index.rmd" class="section level3">
+<h3><span class="header-section-number">5.2.3</span> index.Rmd</h3>
+<p>Write <strong>Preface</strong> or <strong>Introduction</strong>.</p>
+<p>Update:
+<code>Title</code>
+<code>Author</code>
+<code>Date</code>
+<code>GitHub-repo</code>
+<code>Url</code> is where the book will be published. I used <a href="https://jnlwh.github.io/Ipsum/">https://jnlwh.github.io/Ipsum/</a> to see the final results.
+<code>Description</code>
+<code>cover-image</code> (optional, .pgn works)</p>
+</div>
+</div>
+<div id="start-writing" class="section level2">
+<h2><span class="header-section-number">5.3</span> Start writing</h2>
+<p>I created page files at once with</p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(<span class="st">&quot;bookdown&quot;</span>)
 
+<span class="kw">file.create</span>(<span class="st">&quot;00-My-Bookdown-Step-by-Step.Rmd&quot;</span>,
+            <span class="st">&quot;01-What-is-Lorem-Ipsum.Rmd&quot;</span>,
+            <span class="st">&quot;02-Why-do-we-use-it.Rmd&quot;</span>,
+            <span class="st">&quot;03-Where-does-it-come-from.Rmd&quot;</span>,
+            <span class="st">&quot;04-Where-can-I-get-some.Rmd&quot;</span>)</code></pre>
+<p>Each file is a “page” on the online book website.</p>
+<p>Personally I prefer longer pages with subsection (Heading 2, 3, …). For me it’s easier to scroll down with a good menu rather than need to load page after page containing very little content.</p>
+<p>Headings automatically get to turn into Chapter and subsections with numbering in place.</p>
+</div>
+<div id="book-preview" class="section level2">
+<h2><span class="header-section-number">5.4</span> Book preview</h2>
+<p>Render book with r code</p>
+<pre class="sourceCode r"><code class="sourceCode r">bookdown<span class="op">::</span><span class="kw">render_book</span>(<span class="st">&quot;index.Rmd&quot;</span>)</code></pre>
+<p>Go into ´docs &gt; index.html` to preview book in Web Browser. Up until now, the book HTML is on the local computer.</p>
+</div>
+<div id="push-code-to-github" class="section level2">
+<h2><span class="header-section-number">5.5</span> Push code to GitHub</h2>
+<p>Thanks to the <code>docs</code> folder under <code>master</code> branch, once repo is pushed to master the Github Page is live immediately at <a href="https://jnlwh.github.io/Ipsum/">https://jnlwh.github.io/Ipsum/</a>.</p>
+<p>After I made some changes, I need to re-render the books and then push to Github for the changes to show on the Github Page.</p>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
+<a href="where-can-i-get-some.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="what-is-lorem-ipsum.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -43,8 +43,8 @@ Update:
 
 I created page files at once with
 
-```{r eval = FALSE}
 
+```r
 library("bookdown")
 
 file.create("00-My-Bookdown-Step-by-Step.Rmd",
@@ -64,10 +64,9 @@ Headings automatically get to turn into Chapter and subsections with numbering i
 
 Render book with r code
 
-```{r eval = FALSE}
 
+```r
 bookdown::render_book("index.Rmd")
-
 ```
 
 Go into ´docs > index.html` to preview book in Web Browser. Up until now, the book HTML is on the local computer.

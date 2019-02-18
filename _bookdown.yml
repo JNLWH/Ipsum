@@ -7,7 +7,7 @@ rmd_files: ["index.Rmd",
 "02-Why-do-we-use-it.Rmd",
 "03-Where-does-it-come-from.Rmd",
 "04-Where-can-I-get-some.Rmd",
-"00-My-Bookdown-Step-by-Step"
+"00-My-Bookdown-Step-by-Step.Rmd"
 ]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes
