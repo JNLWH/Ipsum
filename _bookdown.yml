@@ -1,5 +1,5 @@
-book_filename: "Ipsum-BookdownTest"
-chapter_name: "Chapter "
+book_filename: "Ipsum"
+# chapter_name: "Chapter "
 repo: https://github.com/JNLWH/Ipsum
 output_dir: docs
 rmd_files: ["index.Rmd", 
