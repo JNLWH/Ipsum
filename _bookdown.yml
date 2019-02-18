@@ -1,0 +1,12 @@
+book_filename: "Ipsum-BookdownTest"
+chapter_name: "Chapter "
+repo: https://github.com/seankross/bookdown-start
+output_dir: docs
+rmd_files: ["index.Rmd", 
+"01-What-is-Lorem-Ipsum.Rmd", 
+"02-Why-do-we-use-it.Rmd",
+"03-Where-does-it-come-from.Rmd",
+"04-Where-can-I-get-some.Rmd"
+]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
