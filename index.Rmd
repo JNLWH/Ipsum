@@ -8,7 +8,7 @@ bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: JNLWH/Ipsum
-# url: 'http\://seankross.com/bookdown-start/'
+url: 'https://jnlwh.github.io/Ipsum/'
 description: "Testing Bookdown Start Boilerplate by Sean Kross."
 ---
 
