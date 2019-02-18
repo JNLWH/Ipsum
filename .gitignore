@@ -2,7 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-.gitignore
-.gitattribute
-Ipsum.Rporj
-workFile.R
+*.gitignore
+*.gitattribute
+*.DS_Store
+*.Rporj
+*.R
