@@ -12,46 +12,46 @@ One needs to go into repo settings to enable github page.
 
 Copy or clone Sean's Bookdown boilerplate ([Bookdown-Start Repo](https://github.com/seankross/bookdown-start)). Start with these files and make modifications.
 
-### _output.yml
+**`_output.yml`**
 
 Update line 8 "Ipsum" as this will be the book name.
 
-### _bookdown.yml
+**`_bookdown.yml`**
 
 Update:
 
-`book_filename`
-`repo` (optional)
-`output_dir: docs` 
-`rmd_files` specifies the order of chapters. It helps to name each file with a number prefix.
-`new_session: yes`
+* `book_filename`
+* `repo` (optional)
+* `output_dir` : docs
+* `rmd_files` specifies the order of chapters. It helps to name each file with a number prefix.
+* `new_session` : yes
 
-### index.Rmd
+**`index.Rmd`**
 
-Write __Preface__ or __Introduction__. 
+Write *Preface* or *Introduction*. 
 
 Update:
-`Title`
-`Author`
-`Date`
-`GitHub-repo` 
-`Url` is where the book will be published. I used [https://jnlwh.github.io/Ipsum/](https://jnlwh.github.io/Ipsum/) to see the final results.
-`Description`
-`cover-image` (optional, .pgn works)
+
+* `Title`
+* `Author`
+* `Date`
+* `GitHub-repo` 
+* `Url` is where the book will be published. I used [https://jnlwh.github.io/Ipsum/](https://jnlwh.github.io/Ipsum/) to see the final results.
+* `Description`
+* `cover-image`: optional
 
 ## Start writing
 
-I created page files at once with
+I created a number of `.Rmd` files and removed Sean's boilerplate chapter files.
 
 ```{r eval = FALSE}
 
-# library("bookdown")
+library("bookdown")
 
-# file.create("1-file-name.Rmd",
-#            "2-file-name.Rmd",
-#            "3-file-name.Rmd",
-#            "4-file-name.Rmd",
-#            "5-file-name.Rmd")
+file.create("01-What-is-Lorem-Ipsum.Rmd",
+            "02-Why-do-we-use-it.Rmd",
+            "03-Where-does-it-come-from.Rmd",
+            "04-Where-can-I-get-some.Rmd")
 ```
 
 Each file is a "page" on the online book website. 
@@ -66,7 +66,7 @@ Render book with r code
 
 ```{r eval = FALSE}
 
-# bookdown::render_book("index.Rmd")
+bookdown::render_book("index.Rmd")
 
 ```
 
